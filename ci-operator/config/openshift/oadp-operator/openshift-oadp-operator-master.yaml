@@ -11,9 +11,9 @@ build_root:
   project_image:
     from_repository: true
     inputs:
-        ocp_builder_rhel-8-golang-1.16-openshift-4.9:
-          as:
-          - registry.access.redhat.com/ubi8/go-toolset:1.14.7
+      ocp_builder_rhel-8-golang-1.16-openshift-4.9:
+        as:
+        - registry.access.redhat.com/ubi8/go-toolset:1.14.7
 images:
 - dockerfile_path: Dockerfile
   from: ocp_builder_rhel-8-golang-1.16-openshift-4.9
