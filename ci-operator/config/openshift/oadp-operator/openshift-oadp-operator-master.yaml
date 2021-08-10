@@ -11,7 +11,7 @@ build_root:
   project_image:
     from_repository: true
   inputs:
-      ocp_builder_rhel-8-golang-1.15-openshift-4.7:
+      ocp_builder_rhel-8-golang-1.14-openshift-4.7:
         as:
         - registry.access.redhat.com/ubi8/go-toolset
 images:
